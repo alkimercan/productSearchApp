@@ -1,0 +1,34 @@
+.pagination{
+    position: absolute;
+    width: 204.6px;
+    height: 33px;
+    left: 304px;
+    top: 1656px;
+    display: flex;
+    flex-direction: row;
+}
+.paginationGroup{
+    width: 33px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #646464;
+    place-content: center;
+    margin-right: 6.6px;
+}
+.paginationGroup:first-child {
+    margin-right: 13.2px;
+  }
+.paginationGroup:nth-last-child(2){
+    margin-right: 13.2px;
+}

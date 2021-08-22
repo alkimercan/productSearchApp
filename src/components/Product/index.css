@@ -1,0 +1,114 @@
+.product{
+    width: 254px;
+    height: 472px;
+    cursor: url('../../images/pointer2.png'),pointer;
+}
+.productHover{
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    width: 254px;
+    height: 472px;
+    cursor: url('../../images/pointer2.png'),pointer;
+}
+.product:not(:first-child){
+    margin-left: 14px;
+}
+.productHover:not(:first-child){
+    margin-left: 14px;
+}
+.productImage{
+    width: 254px;
+    height: 339px;
+}
+.productImageHover{
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    width: 254px;
+    height: 339px;
+}
+.productTitle{
+    margin-top: 9px;
+    width: 230px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #484848;
+    margin-left: 15px;
+}
+.productFilters{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 222px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #484848;
+}
+.productPrice{
+    margin-top: 13px;
+    margin-left: 15px;
+    width: 159px;
+    height: 37px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.discount{
+    font-size: 12px;
+    color: #F90000;
+}
+.price{
+    text-decoration-line: line-through;
+    color: #9B9B9B;
+}
+.bold{
+    font-weight: bold;
+}
+.addToCart{
+    margin-left: 15px;
+    position: absolute;
+    width: 233px;
+    height: 32px;
+    background: rgba(255, 96, 0, 0.11);
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FF6000;
+    place-content: center;
+    display: flex;
+    margin-top: 33px
+}
+.addToCartDisabled{
+    margin-left: 15px;
+    position: absolute;
+    width: 233px;
+    height: 32px;
+    background: rgba(126, 126, 126, 0.11);
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #B0B0B0;
+    place-content: center;
+    display: flex;
+    margin-top: 33px
+}
